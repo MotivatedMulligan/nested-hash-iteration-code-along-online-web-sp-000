@@ -26,10 +26,7 @@ require 'pry'
 
 
 def remove_strawberry(contacts)
-contacts.each do|'Jon Snow',{
-  name: "Jon",
-  email: "jon_snow@thewall.we",
-  favorite_ice_cream_flavors: ["chocolate", "vanilla"]}|
+contacts.each do|person, contact_details_hash|
 binding.pry
 end
 end
