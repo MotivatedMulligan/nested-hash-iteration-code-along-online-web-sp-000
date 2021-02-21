@@ -23,9 +23,10 @@ require 'pry'
     email: "freddy@mercury.com",
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]}
 }
-#contacts["Freddie Mercury"] == :favorite_ice_cream_flavors
+
+
 def remove_strawberry(contacts)
-contacts.each {|person, contact_details_hash|}
+contacts.each {|person, contact_details_hash|
 binding.pry
 
 end
